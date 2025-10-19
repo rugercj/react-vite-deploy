@@ -6,7 +6,6 @@ import CustomInput from "../components/customInput";
 import CustomButton from "../components/customButton";
 import { doc, getDoc, getFirestore, serverTimestamp, setDoc, query, getDocs, where, collection } from "firebase/firestore";
 import { db } from "../services/firebaseConfig";
-import { GoogleSignin } from "@react-native-google-signin/google-signin";
 import { Platform } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import AsyncStorage from "@react-native-async-storage/async-storage";

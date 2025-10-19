@@ -5,13 +5,7 @@ import Staff from '../masterscreen/staff';
 import { useWindowDimensions } from 'react-native';
 import { TouchableOpacity, View, Image, StyleSheet, Text } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import { HeaderTitle } from 'react-navigation-stack';
-import { ImageBackground } from 'react-native-web';
-import MainTransaction from './maintransaction';
-import Animated, { useAnimatedStyle, useSharedValue } from 'react-native-reanimated';
 
-import { interpolate } from 'react-native-reanimated';
-import { transform } from '@babel/core';
 import CustomDrawerContent from './customDrawerContent';
 
 
